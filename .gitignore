@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+data/raw_fastq/
+data/trimmed_fastq/
+data/bam/
+reference/
+*.fastq.gz
+*.bam
