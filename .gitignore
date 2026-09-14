@@ -8,3 +8,11 @@ data/bam/
 reference/
 *.fastq.gz
 *.bam
+
+*.zip
+*.sam
+subread-index-sam-*
+
+*.summary
+*.junction.bed
+*.indel.vcf
