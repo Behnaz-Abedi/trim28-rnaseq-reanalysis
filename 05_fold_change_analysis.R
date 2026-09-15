@@ -31,8 +31,8 @@ fold_change <- log2(
 
 result <- data.frame(
   gene = rownames(normalized_counts),
-  normal = normalized_counts[, "normal"],
-  tumor = normalized_counts[, "tumor"],
+  normal_count = normalized_counts[, "normal"],
+  tumor_count = normalized_counts[, "tumor"],
   log2FoldChange = fold_change
 )
 
