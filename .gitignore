@@ -16,3 +16,5 @@ subread-index-sam-*
 *.summary
 *.junction.bed
 *.indel.vcf
+
+GSE263021_raw_counts_matrix.tsv.gz
