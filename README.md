@@ -10,7 +10,7 @@ from raw FASTQ files to normalized expression analysis, entirely in R.
 02_qc.R       - quality control and adapter trimming (Rfastp)
 03_align.R    - build genome index and align reads (Rsubread)
 04_count.R    - count reads per gene (featureCounts)
-05_deseq2.R   - normalized fold-change analysis (DESeq2 statistical testing
+05_fold_change_analysis.R   - normalized fold-change analysis (DESeq2 statistical testing
                 not applicable with n=1 per group; see Notes)
 
 ## Samples used
