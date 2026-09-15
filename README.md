@@ -1,9 +1,5 @@
-# Trim28 RNA-seq reanalysis
-
-Small end-to-end reanalysis of RNA-seq data from Panzeri et al. 2025
-(Nature Cancer), GEO accession GSE262713 - from raw FASTQ files to
-differential gene expression, entirely in R.
-
+(Nature Cancer), GEO accession GSE263021 (RNA-seq SubSeries of GSE262713) -
+from raw FASTQ files to normalized expression analysis, entirely in R.
 ## Pipeline (run in order)
 00_setup.R    - install packages
 01_download.R - download raw FASTQ from ENA
